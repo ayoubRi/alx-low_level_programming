@@ -7,7 +7,7 @@
 int main (void)
 {
 	srand(time(0));
-	n = rand() - RAND_MAX / 2
+	n = rand() - RAND_MAX / 2 ;
 		
 		printf("the number : %d\n" , n);
 	if ( n > 0 )
@@ -18,9 +18,9 @@ int main (void)
 	{
 		printf("is zero\n");
 	}
-	else ( n < 0 ) 
+	else if ( n < 0 ) 
 	{
 		printf("is negative\n");
 	}
-	printf("\n")
+	printf("\n") ;
 		return 0 ;
