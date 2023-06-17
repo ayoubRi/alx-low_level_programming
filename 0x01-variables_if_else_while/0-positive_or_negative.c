@@ -4,14 +4,11 @@
 
 /**
  *  assign a random number to the variable n each time it is executed
- *  it executes , and print it
- *  return 0
  */
 
-int main (void)
+int main(void)
 {
         int n;
-}
 
         srand(time(0));
         n = rand() - RAND_MAX / 2 ;
@@ -28,5 +25,5 @@ int main (void)
         else if ( n < 0 )
         {
                 printf("%d is negative\n" , n );
-        }
+        i}
         printf("\n") ;
