@@ -1,5 +1,5 @@
+#include <main.h>
 #include <stdio.h>
-#include <conio.h>
 
 /**
  * is upper checks if the character is uppercase
